@@ -1,0 +1,72 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+app{
+  width: 100%;
+  height: 100%;
+}
+
+.preview{
+  padding: 20%;
+  max-width:90%;
+  height: auto;
+}
+
+.active{
+  padding: 0;
+  left: 10%;
+  right: 10%;
+  min-width: 100%;
+  height: auto;
+  
+}
+
+.picturewrap{
+  display: block;
+  text-align: center;
+}
+
+.info {
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+}
+
+.header {
+  
+  height: 10rem;
+  padding: 1rem;
+  top: 0;
+  position: fixed;
+  z-index: 1;
+  background: white;
+}
+
+.headerOpacity{
+  min-width: 100%;
+  margin-top: 9rem;
+  height: 1rem;
+  background: linear-gradient(180deg,white, transparent);
+  position:fixed;
+}
+
+
+@media only screen and (max-width: 992px){
+  #firstInfo {
+    padding-top: 15rem;
+  }
+}
+
+@media only screen and (max-width: 650px){
+  #firstInfo {
+    padding-top: 25rem;
+  }
+}
+
+@media only screen and (max-width: 650px){
+  #firstInfo {
+    padding-top: 30rem;
+  }
+}
